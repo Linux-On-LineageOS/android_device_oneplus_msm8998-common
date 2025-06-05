@@ -133,3 +133,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 include vendor/oneplus/msm8998-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
